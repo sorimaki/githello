@@ -4,10 +4,10 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
-let port = process.env.PORT || 5000;
+let port = process.env.PORT || 4000;
 let app = express ();
 
- app.listen(port, console.log(`Server listening on port ${port}`));
+ app.listen(port, console.log(`Server listening on port ${port} and not 4000`));
 //  app.get('/', (req, res) => {
 //      res.send("Hello World from server.js");
 //  })
